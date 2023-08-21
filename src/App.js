@@ -53,9 +53,9 @@ function App() {
         <div>
           <Navigation/>
             <Routes>                
-              <Route path='/books'  element={<Books/>} /> 
+              <Route path='/'  element={<Books/>} /> 
             
-              <Route path='/'element={<Books mobile={mobile}/>} />            
+              {/* <Route path='/'element={<Books mobile={mobile}/>} />             */}
           </Routes>
         </div> 
       </>
@@ -64,9 +64,9 @@ function App() {
         <div>
           <NavigationMobile/>
             <Routes>                
-              <Route path='/books'  element={<Books/>} /> 
+              <Route path='/'  element={<Books/>} /> 
               
-              <Route path='/'element={<Books/>} />            
+              {/* <Route path='/'element={<Books/>} />             */}
           </Routes>
         </div> 
       </>
