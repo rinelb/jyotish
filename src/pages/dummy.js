@@ -11,7 +11,7 @@ const Dummy = ()=>{
 
     const [newMessage, setNewMessage] = useState(["./ba.mp3","./ba.mp3","./ba.mp3","./ba.mp3"]);
     const [newAns, setNewAns] = useState(["./ba.mp3","./ba.mp3","./ba.mp3","./ba.mp3"]);
-    const [s1, setS1] = useState(["./start.mp3","./start.mp3","./start.mp3","./start.mp3"]);
+    const [s1, setS1] = useState(["https://github.com/rinelb/jyotish/raw/main/public/start.mp3","https://github.com/rinelb/jyotish/raw/main/public/start.mp3/start.mp3","https://github.com/rinelb/jyotish/raw/main/public/start.mp3/start.mp3","https://github.com/rinelb/jyotish/raw/main/public/start.mp3/start.mp3"]);
     const [s2, setS2] = useState(["./end.mp3","./end.mp3","./end.mp3","./end.mp3"]);
     const [ buttonNext, setButtonNext ]  = useState("Click here to Start");
     const [showAns, setShowAns] = useState(false);
