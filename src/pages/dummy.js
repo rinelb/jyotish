@@ -11,8 +11,8 @@ const Dummy = ()=>{
 
     const [newMessage, setNewMessage] = useState(["./ba.mp3","./ba.mp3","./ba.mp3","./ba.mp3"]);
     const [newAns, setNewAns] = useState(["./ba.mp3","./ba.mp3","./ba.mp3","./ba.mp3"]);
-    const [s1, setS1] = useState(["ba.mp3","ba.mp3","ba.mp3","ba.mp3"]);
-    const [s2, setS2] = useState(["ba.mp3","ba.mp3","ba.mp3","ba.mp3"]);
+    const [s1, setS1] = useState(["start.mp3","start.mp3","start.mp3","start.mp3"]);
+    const [s2, setS2] = useState(["end.mp3","end.mp3","end.mp3","end.mp3"]);
     const [ buttonNext, setButtonNext ]  = useState("Click here to Start");
     const [showAns, setShowAns] = useState(false);
     const [showQuest, setShowQuest] = useState(false);
@@ -164,24 +164,24 @@ const Dummy = ()=>{
       setNewMessage([q1,q2,q3,q4])
       setNewAns([a1,a2,a3,a4])
       const soundIndex = row0 +1
-      const temps1 = "./a"+soundIndex+".mp3"
+      const temps1 = "a"+soundIndex+".mp3"
       const soundIndex1 = row1 +1
-      const temps2 = "./a"+soundIndex1+".mp3"
+      const temps2 = "a"+soundIndex1+".mp3"
       const soundIndex2 = row2 +1
-      const temps3 = "./a"+soundIndex2+".mp3"
+      const temps3 = "a"+soundIndex2+".mp3"
       const soundIndex3 = row3 +1
-      const temps4 = "./a"+soundIndex3+".mp3"
+      const temps4 = "a"+soundIndex3+".mp3"
       setS1([temps1,temps2,temps3,temps4])
 
 
       const asoundIndex = col0 +1
-      const atemps1 = "./s"+asoundIndex+".mp3"
+      const atemps1 = "s"+asoundIndex+".mp3"
       const asoundIndex1 = col1 +1
-      const atemps2 = "./s"+asoundIndex1+".mp3"
+      const atemps2 = "s"+asoundIndex1+".mp3"
       const asoundIndex2 = col2 +1
-      const atemps3 = "./s"+asoundIndex2+".mp3"
+      const atemps3 = "s"+asoundIndex2+".mp3"
       const asoundIndex3 = col3 +1
-      const atemps4 = "./s"+asoundIndex3+".mp3"
+      const atemps4 = "s"+asoundIndex3+".mp3"
       setS2([atemps1,atemps2,atemps3,atemps4])
       
       //SetQuestions()
@@ -256,14 +256,14 @@ const Dummy = ()=>{
         setNewMessage([q1,q2,q3,q4]);
         setNewAns([a1,a2,a3,a4])
       const soundIndex = rowv +1
-      const temps4 = "./a"+soundIndex+".mp3"
+      const temps4 = "a"+soundIndex+".mp3"
       console.log("temp  ",temps1," ",temps2," ",temps3," ",temps4)
       setS1([temps1,temps2,temps3,temps4])
 
 
       
       const asoundIndex3 = colv +1 
-      const atemps4 = "./s"+asoundIndex3+".mp3"
+      const atemps4 = "s"+asoundIndex3+".mp3"
 
       console.log("atemp  ",atemps1," ",atemps2," ",atemps3," ",atemps4)
       setS2([atemps1,atemps2,atemps3,atemps4])
@@ -334,7 +334,7 @@ const Dummy = ()=>{
        
 
         return(<><center>
-                    <h1>That Big Table Testing $</h1>
+                    <h1>That Big Table - Test </h1>
                     <br/> 
                
                 <br/>                
