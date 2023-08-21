@@ -16,7 +16,7 @@ function App() {
 
   const [width, setWindowWidth] = useState(0)
   const [mobile, setMobile] = useState(0)
-  const mobileWidth = 1000
+  const mobileWidth = 10
 
    useEffect(() => { 
 
