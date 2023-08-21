@@ -11,8 +11,8 @@ const Dummy = ()=>{
 
     const [newMessage, setNewMessage] = useState(["./ba.mp3","./ba.mp3","./ba.mp3","./ba.mp3"]);
     const [newAns, setNewAns] = useState(["./ba.mp3","./ba.mp3","./ba.mp3","./ba.mp3"]);
-    const [s1, setS1] = useState(["../data/audio/ba.mp3","../data/audio/ba.mp3","../data/audio/ba.mp3","../data/audio/ab.mp3"]);
-    const [s2, setS2] = useState(["../data/audio/ba.mp3","../data/audio/ba.mp3","../data/audio/ba.mp3","../data/audio/ba.mp3"]);
+    const [s1, setS1] = useState(["data/audio/ba.mp3","data/audio/ba.mp3","data/audio/ba.mp3","data/audio/ab.mp3"]);
+    const [s2, setS2] = useState(["data/audio/ba.mp3","data/audio/ba.mp3","data/audio/ba.mp3","data/audio/ba.mp3"]);
     const [ buttonNext, setButtonNext ]  = useState("Click here to Start");
     const [showAns, setShowAns] = useState(false);
     const [showQuest, setShowQuest] = useState(false);
@@ -334,7 +334,7 @@ const Dummy = ()=>{
        
 
         return(<><center>
-                    <h1>That Big Table Testing :)</h1>
+                    <h1>That Big Table Testing :</h1>
                     <br/> 
                
                 <br/>                
