@@ -35,7 +35,7 @@ import { Link } from 'react-router-dom';
         </div>
         <div>
           <Routes>
-            <Route exact path='/books' element={() => <Books />} />
+            <Route exact path='/jyotish' element={() => <Books />} />
            
             <Route exact path='/' element={() => <Books />} />
             {/* <Route render={function () {

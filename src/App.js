@@ -53,7 +53,7 @@ function App() {
         <div>
           <Navigation/>
             <Routes>                
-              <Route path='/'  element={<Books/>} /> 
+              <Route path='/jyotish'  element={<Books/>} /> 
             
               {/* <Route path='/'element={<Books mobile={mobile}/>} />             */}
           </Routes>
@@ -64,7 +64,7 @@ function App() {
         <div>
           <NavigationMobile/>
             <Routes>                
-              <Route path='/'  element={<Books/>} /> 
+              <Route path='/jyotish'  element={<Books/>} /> 
               
               {/* <Route path='/'element={<Books/>} />             */}
           </Routes>
