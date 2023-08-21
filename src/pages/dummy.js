@@ -11,8 +11,8 @@ const Dummy = ()=>{
 
     const [newMessage, setNewMessage] = useState(["./ba.mp3","./ba.mp3","./ba.mp3","./ba.mp3"]);
     const [newAns, setNewAns] = useState(["./ba.mp3","./ba.mp3","./ba.mp3","./ba.mp3"]);
-    const [s1, setS1] = useState(["start.mp3","start.mp3","start.mp3","start.mp3"]);
-    const [s2, setS2] = useState(["end.mp3","end.mp3","end.mp3","end.mp3"]);
+    const [s1, setS1] = useState(["https://rinelb.github.io/jyotish/start.mp3","https://rinelb.github.io/jyotish/start.mp3","https://rinelb.github.io/jyotish/start.mp3","https://rinelb.github.io/jyotish/start.mp3"]);
+    const [s2, setS2] = useState(["https://rinelb.github.io/jyotish/end.mp3","https://rinelb.github.io/jyotish/end.mp3","https://rinelb.github.io/jyotish/end.mp3","https://rinelb.github.io/jyotish/end.mp3"]);
     const [ buttonNext, setButtonNext ]  = useState("Click here to Start");
     const [showAns, setShowAns] = useState(false);
     const [showQuest, setShowQuest] = useState(false);
@@ -334,7 +334,7 @@ const Dummy = ()=>{
        
 
         return(<><center>
-                    <h1>That  Big Table Testing!</h1>
+                    <h1>That  Big Table Testing</h1>
                     <br/> 
                
                 <br/>                
