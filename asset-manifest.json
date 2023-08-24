@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jyotish/static/css/main.666dbd63.css",
-    "main.js": "/jyotish/static/js/main.57390e8d.js",
+    "main.js": "/jyotish/static/js/main.de058993.js",
     "static/js/845.ecf2ce4f.chunk.js": "/jyotish/static/js/845.ecf2ce4f.chunk.js",
     "index.html": "/jyotish/index.html",
     "main.666dbd63.css.map": "/jyotish/static/css/main.666dbd63.css.map",
-    "main.57390e8d.js.map": "/jyotish/static/js/main.57390e8d.js.map",
+    "main.de058993.js.map": "/jyotish/static/js/main.de058993.js.map",
     "845.ecf2ce4f.chunk.js.map": "/jyotish/static/js/845.ecf2ce4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.666dbd63.css",
-    "static/js/main.57390e8d.js"
+    "static/js/main.de058993.js"
   ]
 }
